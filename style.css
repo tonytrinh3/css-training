@@ -1,0 +1,23 @@
+h1 {
+    font-size: 100px;
+    color: green;
+    /*this is to wrap the word around your box*/
+    word-wrap: break-word;
+}
+
+.box1 {
+    background-color: darkgrey;
+    width: 20%;
+    height: 100%;
+    display: inline-block;
+    margin-right:-5px;
+}
+
+.box2 {
+    background-color: darkslategrey;
+    width: 20%;
+    height: 100%;
+    display: inline-block;
+
+}
+
