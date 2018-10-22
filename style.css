@@ -13,6 +13,11 @@ h1 {
     margin-right:-5px;
 }
 
+.box1:hover{
+    background-color: blue;
+    opacity: 0.7;
+}
+
 .box2 {
     background-color: darkslategrey;
     width: 20%;
@@ -21,3 +26,14 @@ h1 {
 
 }
 
+.box2:hover{
+    background-color:yellow;
+    opacity: 0.5;
+}
+
+body {
+    background-image: url('dog.jpeg');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 50% 50%;
+}
