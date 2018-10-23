@@ -29,6 +29,7 @@ h1 {
 .box2:hover{
     background-color:yellow;
     opacity: 0.5;
+    font-size: 150px;
 }
 
 body {
@@ -36,4 +37,27 @@ body {
     background-repeat: no-repeat;
     background-position: right top;
     background-size: 50% 50%;
+}
+/*background color*/
+.nav-bar{
+    background-color: green;
+}
+/*color of the text, size of text*/
+.nav-bar a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+}
+
+/*this is used to get rid of those bullets, to make all element within ul to fall inline, be in the same sides/plane */
+ul{
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+/*this turns the li properties to be from going up and down vertical to be side to side, creating the typical nav bar layout*/
+ul li{
+    display: inline-block;
 }
