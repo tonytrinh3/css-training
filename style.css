@@ -61,3 +61,16 @@ ul{
 ul li{
     display: inline-block;
 }
+
+/*for some reason this allows all of the highlight to be the whole height of the bar instead of the just the text when you hover*/
+ul li ul {
+  display: inline-block;
+}
+
+
+
+ul li ul li:hover {
+  background-color: black;
+  opacity: 0.8;
+}
+
